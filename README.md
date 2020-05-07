@@ -2,4 +2,4 @@
 
 This repo contains Terraform configuration examples for AWS environments.
 
-* [Creating a VPC and subnets for Rubrik Polaris Exocompute in AWS](/tree/master/rubrik-polaris-exocompute)
+* [Creating a VPC and subnets for Rubrik Polaris Exocompute in AWS](/rubrik-polaris-exocompute)
