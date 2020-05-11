@@ -2,8 +2,8 @@
 **/.terraform/plugins/**
 
 # Terraform secrets files
-*.tfvars
-*.tfvars.*
+#*.tfvars
+#*.tfvars.*
 
 # Terraform state files
 *.tfstate
