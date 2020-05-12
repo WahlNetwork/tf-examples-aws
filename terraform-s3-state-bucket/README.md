@@ -20,9 +20,15 @@ Credentials should be stored in the `user\.aws\credential` file.
 
 Example:
 
+## Credentials
+
+Credentials should be stored in the `user\.aws\credential` file using Secrets stored in this repository.
+
+Example:
+
 ```bash
-mkdir -p .aws
-echo "[default]" > .aws/credentials
-echo "aws_access_key_id = ${{ secrets.AWS_ACCESS_KEY_ID }}" >> .aws/credentials
-echo "aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}" >> .aws/credentials
+mkdir -p ~/.aws
+echo "[default]" > ~/.aws/credentials
+echo "aws_access_key_id = ${{ secrets.AWS_ACCESS_KEY_ID }}" >> ~/.aws/credentials
+echo "aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}" >> ~/.aws/credentials
 ```
